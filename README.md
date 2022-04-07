@@ -16,3 +16,7 @@ Models used in the notebook of modelisation are :
 Several architectures for Conv1D have been tested with different activation functions.
 
 In this study, best model is Conv1D. Nevertheless, Pearson correlation coefficient (between actual and predicted) are low (around 0.1). LinearRegression, even it is a simple model, does not so bad comparing others. 
+
+Two kernels have been published on Kaggle :
+- [one](https://www.kaggle.com/code/larochemf/ubiquant-low-memory-use-be-careful) about problems caused when changing the data type to reduce the size (in bytes) of the dataset 
+- [one](https://www.kaggle.com/code/larochemf/eda-pca-linearregression/notebook) about exploratory analysis, PCA and LinearRegression
