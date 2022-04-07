@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Ubiquant market prediction : Modelisation with best model
+# Ubiquant market prediction : Evaluation with best model
 # Kaggle competition 
 # https://www.kaggle.com/competitions/ubiquant-market-prediction/overview.
 

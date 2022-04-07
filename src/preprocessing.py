@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# Functions for preprocessing data
+
 # Librairies
 # Data Manipulation
 import pandas as pd
