@@ -1,8 +1,18 @@
 # OCR_P8_Ubiquant_Market_Prediction
-Ubiquant Market Prediction is a Kaggle competition to which I am participating. It will end on April 18, 2022.
+[Ubiquant Market Prediction](https://www.kaggle.com/competitions/ubiquant-market-prediction/overview) is a Kaggle competition to which I am participating. It began on January, 18, 2022 and will end on April 18, 2022.
 
-Here are my works concerning
+This is prediction competition through regression.
 
-## Data Analysis
+2 notebooks have been written, one for analysis and one for modelisation.
 
-## Data Prediction
+I tested the influence of preprocessing on modelisation, considering scaling and dimension reduction. I focused only on the 300 features.
+
+Models used in the notebook of modelisation are :
+- LinearRegression
+- ElasticNet
+- XGBRegressor
+- unidimensionnal convolutionnal neuronal networks (Conv1D).
+
+Several architectures for Conv1D have been tested with different activation functions.
+
+In this study, best model is Conv1D. Nevertheless, Pearson correlation coefficient (between actual and predicted) are low (around 0.1). LinearRegression, even it is a simple model, does not so bad comparing others. 
