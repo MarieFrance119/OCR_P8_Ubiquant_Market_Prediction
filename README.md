@@ -20,3 +20,5 @@ In this study, best model is Conv1D. Nevertheless, Pearson correlation coefficie
 Two kernels have been published on Kaggle :
 - [one](https://www.kaggle.com/code/larochemf/ubiquant-low-memory-use-be-careful) about problems caused when changing the data type to reduce the size (in bytes) of the dataset 
 - [one](https://www.kaggle.com/code/larochemf/eda-pca-linearregression/notebook) about exploratory analysis, PCA and LinearRegression
+
+EDIT : following the competition results, my ranking was 1951/2893 with XGBRegressor. Submissions are evaluated on the mean of the Pearson correlation coefficient for each time ID, mine was 0.095511 and the best of the competition was 0.126987.
